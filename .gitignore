@@ -1,0 +1,19 @@
+# Datos: el proyecto usa el catálogo de muestra de Databricks
+*.csv
+*.parquet
+*.json
+*.zip
+*.dbc
+
+# Exportaciones y entornos locales
+*.html
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Credenciales
+.env
+*.token
+
+# Sistema operativo
+.DS_Store
